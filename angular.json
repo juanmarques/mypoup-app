@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mypoup-app"
+    }
+  },
+  "defaultProject": "mypoup-app",
+  "cli": {
+    "analytics": "2aad5cb7-ff64-457c-b4dd-291dede78dc2"
+  }
 }
