@@ -1,0 +1,12 @@
+#navbarMain{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.logoImg{
+    width: 20%;
+}
+.imgFluid{
+    max-width: 100%;
+    height: auto;
+}

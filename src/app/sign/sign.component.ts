@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-sign',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sign.component.css']
 })
 export class SignComponent implements OnInit {
+  loadOptionAccess = 'signIn';
 
-  constructor() { }
-
-  ngOnInit(): void {
+  onSelectAccessOption(feature: string){
+    // console.log('feature-BTN-----'+feature);
+    this.loadOptionAccess = feature;
   }
 
+
+  ngOnInit(){
+  }
 }

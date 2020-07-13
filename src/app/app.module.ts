@@ -4,14 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SignComponent } from './sign/sign.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 import { FormsModule } from '@angular/forms';/* Forms  */
-import { MatInputModule } from '@angular/material/input'/* Material Input */
+import { MatInputModule } from '@angular/material/input';/* Material */
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignComponent
+    SignComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
