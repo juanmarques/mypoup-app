@@ -1,7 +1,12 @@
 #navbarMain{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
     position: fixed;
     z-index: 1;
-    width: 100%;
 }
 .logoImg{
     width: 20%;
@@ -9,4 +14,11 @@
 .imgFluid{
     max-width: 100%;
     height: auto;
+}
+.part3{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    font-weight: 300;
 }

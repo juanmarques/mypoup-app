@@ -1,0 +1,6 @@
+.formBox{
+    display: flex;
+    flex-direction: column;
+}
+
+
